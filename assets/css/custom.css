@@ -1,0 +1,340 @@
+
+.minus {
+      position: absolute;
+    right: -10px;
+    top: 20px;
+    color: red;
+}
+.box-border{
+    border: 1px solid #000;
+    padding: 10px;
+}
+.box-borders{
+  border: 1px solid #000;
+  padding: 100px 0px;
+  margin-top: -117px;
+  margin-bottom: 20px;
+}
+h1 i{
+  margin-right: 10px;
+}
+h1 img{
+width: 35px;
+margin-right: 6px;
+}
+.mb-5{
+  margin-bottom: 5px !important;
+}
+.my-3{
+  margin:20px 0px;}
+  .mx-3{
+  margin:0px 15px;}
+  .mt-0{
+  margin:0px !important;}
+  .pb-20{
+      padding-bottom: 20px;
+    }
+      .pl-10{
+      padding-left: 10px;
+    } 
+    .pl-0{
+      padding-left: 0px !important;}
+     .pb-0{
+      padding-bottom:  0px !important;
+    }
+    .comapny_profile_p p{
+      margin: 0px !important;
+    }
+    .p-5{
+      padding: 20px;
+    }
+     .p-10{
+      padding: 10px;
+    }
+    .mr-50{
+      margin-right: 20px;
+    } 
+    .mr-30{
+      margin-right: 30px;
+    }
+    .cpf_ready{
+      background-color: black;
+    color: #fff;
+        padding: 6px 25px;
+    font-weight: bold;
+    }
+    .error_section{
+          border: 1px solid #a7a1a1;
+    padding: 10px;
+        height: 150px;
+    overflow-y: scroll;
+    }
+    .error_section p{
+      margin-left:20px;
+    }
+ hr {
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #000;
+    float: left;
+}
+.fa-times{
+  color: red;
+}
+.border-1{
+      border: 1px solid #5a5a5a;
+}
+.bg-white{
+  background-color: #fff;
+  padding: 10px;
+}
+.calendar{
+  position: absolute;
+    right: 10px;
+    top: 2px;
+}
+.calendars {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+div#datatable_wrapper {
+       padding:  50px 10px !important;
+}
+#home div#datatable_wrapper {
+       padding: 30px 0px 50px 0px !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 10px !important;
+}
+.logo-lg img{
+  width: 140px;
+}
+
+.top #datatable_paginate {
+    position: absolute !important;
+    left: 49% !important;
+    top: 1px !important;
+}
+.top #datatable_length {
+    position: absolute !important;
+    /* left: 39% !important; */
+    top: 7px !important;
+}
+.top #datatable_info {
+    position: absolute !important;
+    left: 30% !important;
+    top: 0px !important;
+}
+.bottom .dataTables_paginate {
+    position: absolute !important;
+    left: 49% !important;
+    bottom: 5px !important;
+}
+.bottom .dataTables_length {
+    position: absolute !important;
+    /* left: 39% !important; */
+    bottom: 0px !important;
+}
+.bottom .dataTables_info {
+    position: absolute !important;
+    left: 30% !important;
+    bottom: 10px !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	    border: 1px solid #aaa !important;
+	    padding: 4px 15px !important;
+    background-color: transparent;
+    border-radius: 3px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%) !important;
+    color: #fff !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+  color:#fff !important;
+}
+/*.pagination-fa{
+	background-color: transparent;
+	border:1px solid #868585;
+	padding: 5px 10px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:hover{
+	background-color: #868585 !important;
+	    padding: 5px 0px !important;
+}*/
+.proimgs {
+	margin-top: 14px;
+}
+.proimgs img {
+	height: 70px;
+	width: 70px;
+}
+.pdfim {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.emptyrecords {
+	position: absolute;
+	top: 81px;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+	padding: 21px;
+	font-size: 20px;
+}
+.small-box .icon{
+	color: #fff !important;
+}
+.small-box > .inner {
+	height: 139px;
+}
+.small-box .icon{font-size: 40px !important;top: 3px !important;}
+.select_usertype.form-control {
+	width: 200px;
+	float: right;
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  /*display: inline-block;*/
+  width: 100%;
+}
+.doc {
+	margin-top: 30px;
+}
+.doc a {
+	margin: -44px 4px 0 3px;
+}
+.doc .btn {
+  border: 2px solid gray;
+  width: 100%;
+  /*color: gray;*/
+  /*background-color: white;*/
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+/*.mce-ico.mce-i-true::after {*/
+/*	content: "Img";*/
+/*}*/
+
+
+#mceu_0-button {
+	background: url(https://admin.pongohealth.com/assets/camera.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.notes {
+	width: 200px;
+max-height: 200px;
+overflow-y: scroll;
+height: auto;
+float: left;
+}
+
+
+/* Add Css HP */
+
+@media only screen and (max-width: 767px){
+
+  .group_input{
+      margin-top: 1rem;
+      width: 100%;
+  }
+  
+  .profile_img{
+    width: 50% !important;
+    height: 50% !important;
+  }
+
+  .upload_section{
+    height: 80px !important;
+  }
+
+  .check_group{
+    display: inline !important;
+  }
+
+  .star-container{
+    width: unset !important;
+  }
+
+  .cpfdownload{
+    text-align: left !important;
+  }
+
+  .top #datatable_paginate {
+    position: unset !important;
+    margin-bottom: 1rem;
+  }
+  .top #datatable_length {
+      position: unset !important;
+      margin-top: 1rem;
+  }
+  .top #datatable_info {
+      position: unset !important;
+  }
+
+  .bottom .dataTables_paginate {
+    position: unset !important;
+    margin-bottom: 1rem;
+  }
+  .bottom .dataTables_length {
+    position: unset !important;
+    margin-top: 1rem;
+  }
+  .bottom .dataTables_info {
+    position: unset !important;
+  }
+
+  .fromtodate{
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .employee_check{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .employee_check input[type="checkbox"]{
+    position: relative;
+    top: -3px;
+  }
+
+  .custom_container{
+    padding: 10px;
+  }
+
+  .button_group_hwe button{
+    width: 100%;
+  }
+
+  div#datatable_wrapper {
+    padding:  10px 10px !important;
+  }
+
+  .November2021_hwe{
+    font-size: 30px !important;
+  }
+
+}
+
